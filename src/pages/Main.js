@@ -5,7 +5,7 @@ const Main = () => {
 
   return (
     <div className="main">
-      <h1>Estimated Day Of Shipping Calculator</h1>
+      <h1>Packing Due date and Shipping ETA Calculation</h1>
       <Form />
     </div>
   )
