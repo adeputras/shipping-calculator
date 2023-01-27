@@ -1,4 +1,5 @@
 .form-input {
+  color: #000000;
   .form {
     display: flex;
     align-items: flex-end;
@@ -24,11 +25,13 @@
   .rdp {
     margin: 0;
     padding: 15px;
-    background-color: #464343;
+    // background-color: #fe9900;
+    background-color: #ffffff;
     border-radius: 10px;
+    color: #000000;
     &-day {
       &:hover {
-        color: #373535;
+        color: #000000;
       }
     }
     .rdp-cell {
@@ -43,25 +46,24 @@
       }
     }
     .rdp-day_today {
-      // color: #770c56;
       background-color: transparent;
       position: relative;
       border-radius: 0;
       &.rdp-day_selected {
         border-radius: 50%;
-        background-color: #770c56;
+        background-color: #003399;
       }
       &:before {
         content: '';
         width: 25px;
         height: 3px;
-        background-color: #ffffff;
+        background-color: #003399;
         position: absolute;
         bottom: 0;
       }
     }
     .rdp-button[disabled]:not(.rdp-day_selected) {
-      color: #ffb5e8;
+      color: #fe0003;
       opacity: 1;
       font-weight: bold;
     }
@@ -72,14 +74,14 @@
     .rdp-day_selected:focus-visible,
     .rdp-day_selected:hover {
       color: white;
-      background-color: #770c56;
+      background-color: #003399;
     }
     &.delivery-date {
-      background-color: #301515;
+      background-color: #ffffff;
       .rdp-button {
         cursor: default;
         background-color: transparent;
-        color: #ffffff;
+        // color: #ffffff;
       }
       .rdp-button.rdp-day_today {
         background-color: transparent;
@@ -90,13 +92,13 @@
           content: '';
           width: 25px;
           height: 3px;
-          background-color: #ffffff;
+          background-color: #003399;
           position: absolute;
           bottom: 0;
         }
         &.rdp-day_selected {
           border-radius: 50%;
-          background-color: #770c56;
+          background-color: #003399;
           
         }
       }
@@ -104,11 +106,13 @@
       .rdp-day_selected:focus-visible,
       .rdp-day_selected:hover {
         color: white;
-        background-color: #770c56;
+        background-color: #003399;
       }
     }
   }
-
+  .select__dropdown-indicator {
+    color: #000000;
+  }
   .basic-single {
     text-align: left;
     color: #333333;
@@ -117,23 +121,28 @@
     }
     .select__control {
       border: none;
-      box-shadow: 0 0 0 1px #770c56;
+      box-shadow: none;
 
       @media (max-width: 767px) {
         min-height: 45px;
       }
     }
     .select__option--is-focused {
-      background-color: #ffb5e8;
+      background-color: #64a4f8;
     }
     .select__option--is-selected {
-      background-color: #770c56;
+      background-color: #003399;
+    }
+    .select__input-container {
+      color: #000000;
     }
   }
   label {
     text-align: left;
     display: block;
     margin-bottom: 5px;
+    color: #ffffff;
+    font-weight: bold;
   }
   .react-datepicker-wrapper {
     display: block;
@@ -153,13 +162,13 @@
         height: 45px;
       }
       &.react-datepicker-ignore-onclickoutside {
-        box-shadow: 0 0 0 1px #770c56;
+        box-shadow: 0 0 0 1px #003399;
         outline: none;
       }
     }
   }
   .react-datepicker__day--selected {
-    background-color: #770c56;
+    background-color: #003399;
   }
 }
 .btn-submit {
@@ -185,6 +194,15 @@
 }
 .result {
   line-height: 1.4;
+  color: #ffffff;
+  margin-top: 20px;
+  p {
+    margin: 0;
+  }
+  h3 {
+    font-size: 1.3rem;
+    margin-bottom: 0;
+  }
   .visible-xs {
     display: none;
     @media (max-width: 767px) {
