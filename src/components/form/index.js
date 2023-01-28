@@ -6,6 +6,76 @@ import 'react-day-picker/dist/style.css';
 import './index.scss';
 
 const dataCountries = {
+  indonesia: [
+    {
+      date: '01/01/2023',
+      description: 'weekends',
+    },
+    {
+      date: '01/07/2023',
+      description: 'weekends',
+    },
+    {
+      date: '01/08/2023',
+      description: 'weekends',
+    },
+    {
+      date: '01/14/2023',
+      description: 'weekends',
+    },
+    {
+      date: '01/15/2023',
+      description: 'weekends',
+    },
+    {
+      date: '01/21/2023',
+      description: 'weekends',
+    },
+    {
+      date: '01/22/2023',
+      description: 'weekends',
+    },
+    {
+      date: '01/28/2023',
+      description: 'weekends',
+    },
+    {
+      date: '01/29/2023',
+      description: 'weekends',
+    },
+    {
+      date: '02/04/2023',
+      description: 'weekends',
+    },
+    {
+      date: '02/05/2023',
+      description: 'weekends',
+    },
+    {
+      date: '02/11/2023',
+      description: 'weekends',
+    },
+    {
+      date: '02/12/2023',
+      description: 'weekends',
+    },
+    {
+      date: '02/18/2023',
+      description: 'weekends',
+    },
+    {
+      date: '02/19/2023',
+      description: 'weekends',
+    },
+    {
+      date: '02/25/2023',
+      description: 'weekends',
+    },
+    {
+      date: '02/26/2023',
+      description: 'weekends',
+    },
+  ],
   malaysia: [
     {
       date: '01/01/2023',
@@ -250,6 +320,7 @@ const Form = () => {
   const [deliveryDateResult, setDeliveryDateResult] = useState();
   const [holidayResult, setHolidayResult] = useState([]);
 
+  const highlightIndonesia = dataCountries.indonesia.map((data) => new Date(data.date));
   const highlightMalaysia = dataCountries.malaysia.map((data) => new Date(data.date));
   const highlightPhilippine = dataCountries.philippine.map((data) => new Date(data.date));
   const highlightSingapore = dataCountries.singapore.map((data) => new Date(data.date));
@@ -311,7 +382,8 @@ const Form = () => {
 
   //   setDeliveryDate(recheckResultEstimateBusinessDays)
   // }
-  const getEstimation = (propsDate, propsEstimation, propsCountry, propsHolidayResult) => {
+  const getEstimation = (propsDate, propsEstimation, propsCountry) => {
+    console.log(propsEstimation)
     const calculateEstimateBusinessDays = (propsDate, propsEstimation) => {
       const estimateBusinessDays = eachDayOfInterval({
         start: new Date(propsDate),
@@ -320,28 +392,32 @@ const Form = () => {
       return estimateBusinessDays.map((data) => format(new Date(data), 'MM/dd/yyyy'));
     };
 
-    const compareDataArray = (propsData, propsCountry) => {
-      return propsData.map((data) => {
-        switch (propsCountry) {
-          case 'philippine':
-            return dataCountries.philippine.filter((item) => item.date === data).flatMap((item) => item);
-          case 'singapore':
-            return dataCountries.singapore.filter((item) => item.date === data).flatMap((item) => item);
-          default:
-            return dataCountries.malaysia.filter((item) => item.date === data).flatMap((item) => item);
-        }
-      });
+    const compareDataArray = (propsData, propsCountry, propsEstimation) => {
+      if(propsEstimation !== '10'){
+        return propsData.map((data) => dataCountries.indonesia.filter((item) => item.date === data).flatMap((item) => item))
+      } else {
+        return propsData.map((data) => {
+          switch (propsCountry) {
+            case 'philippine':
+              return dataCountries.philippine.filter((item) => item.date === data).flatMap((item) => item);
+            case 'singapore':
+              return dataCountries.singapore.filter((item) => item.date === data).flatMap((item) => item);
+            default:
+              return dataCountries.malaysia.filter((item) => item.date === data).flatMap((item) => item);
+          }
+        });
+      }
     };
 
     const estimateBusinessDaysFormated = calculateEstimateBusinessDays(propsDate, propsEstimation);
-    const compareArrayResults = compareDataArray(estimateBusinessDaysFormated, propsCountry).flatMap((item) => item);
+    const compareArrayResults = compareDataArray(estimateBusinessDaysFormated, propsCountry, propsEstimation).flatMap((item) => item);
     const holidayLength = compareArrayResults.filter((item) => !item.description.includes('weekends'));
     const resultEstimateBusinessDays = addBusinessDays(
       new Date(calculateEstimateBusinessDays(propsDate, propsEstimation)[calculateEstimateBusinessDays(propsDate, propsEstimation).length - 1]),
       holidayLength.length
     );
     const resultEstimateBusinessDaysArray = [format(new Date(resultEstimateBusinessDays), 'MM/dd/yyyy')];
-    const compareResultEstimateBusinessDays = compareDataArray(resultEstimateBusinessDaysArray, propsCountry).flatMap((item) => item);
+    const compareResultEstimateBusinessDays = compareDataArray(resultEstimateBusinessDaysArray, propsCountry, propsEstimation).flatMap((item) => item);
     const recheckHolidayLength = compareResultEstimateBusinessDays.filter((item) => !item.description.includes('weekends'));
     const recheckResultEstimateBusinessDays = addBusinessDays(new Date(resultEstimateBusinessDaysArray[resultEstimateBusinessDaysArray.length - 1]), recheckHolidayLength.length);
 
@@ -357,7 +433,13 @@ const Form = () => {
     }
   }, [date, estimation, country]);
 
-  // console.log(holidayResult)
+  const showWeekendHoliday = (propsCountry, propsEstimated) => {
+    if(propsEstimated !== '10'){
+      return highlightIndonesia
+    } else {
+      return propsCountry === 'philippine' ? highlightPhilippine : propsCountry === 'singapore' ? highlightSingapore : highlightMalaysia
+    }
+  }
   return (
     <div className="form-input">
       <div className="form">
@@ -406,11 +488,7 @@ const Form = () => {
                 setDeliveryDate(new Date());
               }
             }}
-            // disabled={
-            //   country.value === 'philippine' ? highlightPhilippine
-            //     : country.value === 'singapore' ? highlightSingapore
-            //       : highlightMalaysia
-            // }
+            // disabled={highlightIndonesia}
           />
         </div>
         <div className="form-group">
@@ -420,7 +498,8 @@ const Form = () => {
             mode="single"
             selected={deliveryDate}
             month={deliveryDate}
-            disabled={country.value === 'philippine' ? highlightPhilippine : country.value === 'singapore' ? highlightSingapore : highlightMalaysia}
+            disabled={showWeekendHoliday(country.value, estimation.value)}
+            // disabled={country.value === 'philippine' ? highlightPhilippine : country.value === 'singapore' ? highlightSingapore : highlightMalaysia}
           />
         </div>
       </div>
