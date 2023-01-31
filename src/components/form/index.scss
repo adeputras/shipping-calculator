@@ -36,6 +36,9 @@
     }
     .rdp-cell {
       padding: 2px;
+      @media (max-width: 320px) {
+        padding: 0;
+      }
     }
     .rdp-caption_label {
       z-index: 0;
