@@ -2,7 +2,7 @@
   color: #000000;
   .form {
     display: flex;
-    align-items: flex-end;
+    // align-items: flex-end;
     flex-wrap: wrap;
     @media (max-width: 767px) {
       flex-direction: column;

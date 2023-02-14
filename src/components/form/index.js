@@ -75,6 +75,86 @@ const dataCountries = {
       date: '02/26/2023',
       description: 'weekends',
     },
+    {
+      date: '03/04/2023',
+      description: 'weekends',
+    },
+    {
+      date: '03/05/2023',
+      description: 'weekends',
+    },
+    {
+      date: '03/11/2023',
+      description: 'weekends',
+    },
+    {
+      date: '03/12/2023',
+      description: 'weekends',
+    },
+    {
+      date: '03/18/2023',
+      description: 'weekends',
+    },
+    {
+      date: '03/19/2023',
+      description: 'weekends',
+    },
+    {
+      date: '03/22/2023',
+      description: 'Hari Suci Nyepi',
+    },
+    {
+      date: '03/25/2023',
+      description: 'weekends',
+    },
+    {
+      date: '03/26/2023',
+      description: 'weekends',
+    },
+    {
+      date: '04/01/2023',
+      description: 'weekends',
+    },
+    {
+      date: '04/02/2023',
+      description: 'weekends',
+    },
+    {
+      date: '04/07/2023',
+      description: 'Jumat Agung',
+    },
+    {
+      date: '04/08/2023',
+      description: 'weekends',
+    },
+    {
+      date: '04/09/2023',
+      description: 'weekends',
+    },
+    {
+      date: '04/15/2023',
+      description: 'weekends',
+    },
+    {
+      date: '04/16/2023',
+      description: 'weekends',
+    },
+    {
+      date: '04/22/2023',
+      description: 'weekends',
+    },
+    {
+      date: '04/23/2023',
+      description: 'weekends',
+    },
+    {
+      date: '04/29/2023',
+      description: 'weekends',
+    },
+    {
+      date: '04/30/2023',
+      description: 'weekends',
+    },
   ],
   malaysia: [
     {
@@ -157,6 +237,78 @@ const dataCountries = {
       date: '02/26/2023',
       description: 'weekends',
     },
+    {
+      date: '03/04/2023',
+      description: 'weekends',
+    },
+    {
+      date: '03/05/2023',
+      description: 'weekends',
+    },
+    {
+      date: '03/11/2023',
+      description: 'weekends',
+    },
+    {
+      date: '03/12/2023',
+      description: 'weekends',
+    },
+    {
+      date: '03/18/2023',
+      description: 'weekends',
+    },
+    {
+      date: '03/19/2023',
+      description: 'weekends',
+    },
+    {
+      date: '03/25/2023',
+      description: 'weekends',
+    },
+    {
+      date: '03/26/2023',
+      description: 'weekends',
+    },
+    {
+      date: '04/01/2023',
+      description: 'weekends',
+    },
+    {
+      date: '04/02/2023',
+      description: 'weekends',
+    },
+    {
+      date: '04/08/2023',
+      description: 'weekends',
+    },
+    {
+      date: '04/09/2023',
+      description: 'weekends',
+    },
+    {
+      date: '04/15/2023',
+      description: 'weekends',
+    },
+    {
+      date: '04/16/2023',
+      description: 'weekends',
+    },
+    {
+      date: '04/22/2023',
+      description: 'weekends',
+    },
+    {
+      date: '04/23/2023',
+      description: 'weekends',
+    },
+    {
+      date: '04/29/2023',
+      description: 'weekends',
+    },
+    {
+      date: '04/30/2023',
+      description: 'weekends',
+    },
   ],
   philippine: [
     {
@@ -225,6 +377,82 @@ const dataCountries = {
     },
     {
       date: '02/26/2023',
+      description: 'weekends',
+    },
+    {
+      date: '03/04/2023',
+      description: 'weekends',
+    },
+    {
+      date: '03/05/2023',
+      description: 'weekends',
+    },
+    {
+      date: '03/11/2023',
+      description: 'weekends',
+    },
+    {
+      date: '03/12/2023',
+      description: 'weekends',
+    },
+    {
+      date: '03/18/2023',
+      description: 'weekends',
+    },
+    {
+      date: '03/19/2023',
+      description: 'weekends',
+    },
+    {
+      date: '03/25/2023',
+      description: 'weekends',
+    },
+    {
+      date: '03/26/2023',
+      description: 'weekends',
+    },
+    {
+      date: '04/01/2023',
+      description: 'weekends',
+    },
+    {
+      date: '04/02/2023',
+      description: 'weekends',
+    },
+    {
+      date: '04/07/2023',
+      description: 'Good Friday',
+    },
+    {
+      date: '04/08/2023',
+      description: 'weekends',
+    },
+    {
+      date: '04/09/2023',
+      description: 'weekends',
+    },
+    {
+      date: '04/15/2023',
+      description: 'weekends',
+    },
+    {
+      date: '04/16/2023',
+      description: 'weekends',
+    },
+    {
+      date: '04/22/2023',
+      description: 'weekends',
+    },
+    {
+      date: '04/23/2023',
+      description: 'weekends',
+    },
+    {
+      date: '04/29/2023',
+      description: 'weekends',
+    },
+    {
+      date: '04/30/2023',
       description: 'weekends',
     },
   ],
@@ -309,6 +537,82 @@ const dataCountries = {
       date: '02/26/2023',
       description: 'weekends',
     },
+    {
+      date: '03/04/2023',
+      description: 'weekends',
+    },
+    {
+      date: '03/05/2023',
+      description: 'weekends',
+    },
+    {
+      date: '03/11/2023',
+      description: 'weekends',
+    },
+    {
+      date: '03/12/2023',
+      description: 'weekends',
+    },
+    {
+      date: '03/18/2023',
+      description: 'weekends',
+    },
+    {
+      date: '03/19/2023',
+      description: 'weekends',
+    },
+    {
+      date: '03/25/2023',
+      description: 'weekends',
+    },
+    {
+      date: '03/26/2023',
+      description: 'weekends',
+    },
+    {
+      date: '04/01/2023',
+      description: 'weekends',
+    },
+    {
+      date: '04/02/2023',
+      description: 'weekends',
+    },
+    {
+      date: '04/07/2023',
+      description: 'Good Friday',
+    },
+    {
+      date: '04/08/2023',
+      description: 'weekends',
+    },
+    {
+      date: '04/09/2023',
+      description: 'weekends',
+    },
+    {
+      date: '04/15/2023',
+      description: 'weekends',
+    },
+    {
+      date: '04/16/2023',
+      description: 'weekends',
+    },
+    {
+      date: '04/22/2023',
+      description: 'weekends',
+    },
+    {
+      date: '04/23/2023',
+      description: 'weekends',
+    },
+    {
+      date: '04/29/2023',
+      description: 'weekends',
+    },
+    {
+      date: '04/30/2023',
+      description: 'weekends',
+    },
   ],
 };
 
@@ -383,7 +687,6 @@ const Form = () => {
   //   setDeliveryDate(recheckResultEstimateBusinessDays)
   // }
   const getEstimation = (propsDate, propsEstimation, propsCountry) => {
-    console.log(propsEstimation)
     const calculateEstimateBusinessDays = (propsDate, propsEstimation) => {
       const estimateBusinessDays = eachDayOfInterval({
         start: new Date(propsDate),
@@ -393,8 +696,8 @@ const Form = () => {
     };
 
     const compareDataArray = (propsData, propsCountry, propsEstimation) => {
-      if(propsEstimation !== '10'){
-        return propsData.map((data) => dataCountries.indonesia.filter((item) => item.date === data).flatMap((item) => item))
+      if (propsEstimation !== '10') {
+        return propsData.map((data) => dataCountries.indonesia.filter((item) => item.date === data).flatMap((item) => item));
       } else {
         return propsData.map((data) => {
           switch (propsCountry) {
@@ -434,12 +737,12 @@ const Form = () => {
   }, [date, estimation, country]);
 
   const showWeekendHoliday = (propsCountry, propsEstimated) => {
-    if(propsEstimated !== '10'){
-      return highlightIndonesia
+    if (propsEstimated !== '10') {
+      return highlightIndonesia;
     } else {
-      return propsCountry === 'philippine' ? highlightPhilippine : propsCountry === 'singapore' ? highlightSingapore : highlightMalaysia
+      return propsCountry === 'philippine' ? highlightPhilippine : propsCountry === 'singapore' ? highlightSingapore : highlightMalaysia;
     }
-  }
+  };
   return (
     <div className="form-input">
       <div className="form">
