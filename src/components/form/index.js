@@ -155,6 +155,130 @@ const dataCountries = {
       date: '04/30/2023',
       description: 'weekends',
     },
+    {
+      date: '05/01/2023',
+      description: 'Hari Buruh',
+    },
+    {
+      date: '05/06/2023',
+      description: 'weekends',
+    },
+    {
+      date: '05/07/2023',
+      description: 'weekends',
+    },
+    {
+      date: '05/13/2023',
+      description: 'weekends',
+    },
+    {
+      date: '05/14/2023',
+      description: 'weekends',
+    },
+    {
+      date: '05/18/2023',
+      description: 'Kenaikan Isa Almasih',
+    },
+    {
+      date: '05/20/2023',
+      description: 'weekends',
+    },
+    {
+      date: '05/21/2023',
+      description: 'weekends',
+    },
+    {
+      date: '05/27/2023',
+      description: 'weekends',
+    },
+    {
+      date: '05/28/2023',
+      description: 'weekends',
+    },
+    {
+      date: '06/01/2023',
+      description: 'Hari Lahir Pancasila',
+    },
+    {
+      date: '06/03/2023',
+      description: 'weekends',
+    },
+    {
+      date: '06/04/2023',
+      description: 'weekends',
+    },
+    {
+      date: '06/10/2023',
+      description: 'weekends',
+    },
+    {
+      date: '06/11/2023',
+      description: 'weekends',
+    },
+    {
+      date: '06/17/2023',
+      description: 'weekends',
+    },
+    {
+      date: '06/18/2023',
+      description: 'weekends',
+    },
+    {
+      date: '06/24/2023',
+      description: 'weekends',
+    },
+    {
+      date: '06/25/2023',
+      description: 'weekends',
+    },
+    {
+      date: '06/29/2023',
+      description: 'Idul Adha',
+    },
+    {
+      date: '07/01/2023',
+      description: 'weekends',
+    },
+    {
+      date: '07/02/2023',
+      description: 'weekends',
+    },
+    {
+      date: '07/08/2023',
+      description: 'weekends',
+    },
+    {
+      date: '07/09/2023',
+      description: 'weekends',
+    },
+    {
+      date: '07/15/2023',
+      description: 'weekends',
+    },
+    {
+      date: '07/16/2023',
+      description: 'weekends',
+    },
+    {
+      date: '07/19/2023',
+      description: 'Tahun Baru Islam',
+    },
+    {
+      date: '07/22/2023',
+      description: 'weekends',
+    },
+    {
+      date: '07/23/2023',
+      description: 'weekends',
+    },
+    {
+      date: '07/29/2023',
+      description: 'weekends',
+    },
+    {
+      date: '07/30/2023',
+      description: 'weekends',
+    },
   ],
   malaysia: [
     {
@@ -309,6 +433,126 @@ const dataCountries = {
       date: '04/30/2023',
       description: 'weekends',
     },
+    {
+      date: '05/01/2023',
+      description: 'Labor Day',
+    },
+    {
+      date: '05/06/2023',
+      description: 'weekends',
+    },
+    {
+      date: '05/07/2023',
+      description: 'weekends',
+    },
+    {
+      date: '05/13/2023',
+      description: 'weekends',
+    },
+    {
+      date: '05/14/2023',
+      description: 'weekends',
+    },
+    {
+      date: '05/20/2023',
+      description: 'weekends',
+    },
+    {
+      date: '05/21/2023',
+      description: 'weekends',
+    },
+    {
+      date: '05/27/2023',
+      description: 'weekends',
+    },
+    {
+      date: '05/28/2023',
+      description: 'weekends',
+    },
+    {
+      date: '06/03/2023',
+      description: 'weekends',
+    },
+    {
+      date: '06/04/2023',
+      description: 'weekends',
+    },
+    {
+      date: '06/05/2023',
+      description: `Agong's Birthday`,
+    },
+    {
+      date: '06/10/2023',
+      description: 'weekends',
+    },
+    {
+      date: '06/11/2023',
+      description: 'weekends',
+    },
+    {
+      date: '06/17/2023',
+      description: 'weekends',
+    },
+    {
+      date: '06/18/2023',
+      description: 'weekends',
+    },
+    {
+      date: '06/24/2023',
+      description: 'weekends',
+    },
+    {
+      date: '06/25/2023',
+      description: 'weekends',
+    },
+    {
+      date: '06/28/2023',
+      description: 'Hari Raya Haji',
+    },
+    {
+      date: '07/01/2023',
+      description: 'weekends',
+    },
+    {
+      date: '07/02/2023',
+      description: 'weekends',
+    },
+    {
+      date: '07/08/2023',
+      description: 'weekends',
+    },
+    {
+      date: '07/09/2023',
+      description: 'weekends',
+    },
+    {
+      date: '07/15/2023',
+      description: 'weekends',
+    },
+    {
+      date: '07/16/2023',
+      description: 'weekends',
+    },
+    {
+      date: '07/19/2023',
+      description: 'Awal Muharram',
+    },
+    {
+      date: '07/22/2023',
+      description: 'weekends',
+    },
+    {
+      date: '07/23/2023',
+      description: 'weekends',
+    },
+    {
+      date: '07/29/2023',
+      description: 'weekends',
+    },
+    {
+      date: '07/30/2023',
+      description: 'weekends',
+    },
   ],
   philippine: [
     {
@@ -453,6 +697,122 @@ const dataCountries = {
     },
     {
       date: '04/30/2023',
+      description: 'weekends',
+    },
+    {
+      date: '05/01/2023',
+      description: 'Labor Day',
+    },
+    {
+      date: '05/06/2023',
+      description: 'weekends',
+    },
+    {
+      date: '05/07/2023',
+      description: 'weekends',
+    },
+    {
+      date: '05/13/2023',
+      description: 'weekends',
+    },
+    {
+      date: '05/14/2023',
+      description: 'weekends',
+    },
+    {
+      date: '05/20/2023',
+      description: 'weekends',
+    },
+    {
+      date: '05/21/2023',
+      description: 'weekends',
+    },
+    {
+      date: '05/27/2023',
+      description: 'weekends',
+    },
+    {
+      date: '05/28/2023',
+      description: 'weekends',
+    },
+    {
+      date: '06/03/2023',
+      description: 'weekends',
+    },
+    {
+      date: '06/04/2023',
+      description: 'weekends',
+    },
+    {
+      date: '06/10/2023',
+      description: 'weekends',
+    },
+    {
+      date: '06/11/2023',
+      description: 'weekends',
+    },
+    {
+      date: '06/12/2023',
+      description: 'Independence Day',
+    },
+    {
+      date: '06/17/2023',
+      description: 'weekends',
+    },
+    {
+      date: '06/18/2023',
+      description: 'weekends',
+    },
+    {
+      date: '06/24/2023',
+      description: 'weekends',
+    },
+    {
+      date: '06/25/2023',
+      description: 'weekends',
+    },
+    {
+      date: '06/28/2023',
+      description: 'Ied ul-Adha',
+    },
+    {
+      date: '07/01/2023',
+      description: 'weekends',
+    },
+    {
+      date: '07/02/2023',
+      description: 'weekends',
+    },
+    {
+      date: '07/08/2023',
+      description: 'weekends',
+    },
+    {
+      date: '07/09/2023',
+      description: 'weekends',
+    },
+    {
+      date: '07/15/2023',
+      description: 'weekends',
+    },
+    {
+      date: '07/16/2023',
+      description: 'weekends',
+    },
+    {
+      date: '07/22/2023',
+      description: 'weekends',
+    },
+    {
+      date: '07/23/2023',
+      description: 'weekends',
+    },
+    {
+      date: '07/29/2023',
+      description: 'weekends',
+    },
+    {
+      date: '07/30/2023',
       description: 'weekends',
     },
   ],
@@ -611,6 +971,122 @@ const dataCountries = {
     },
     {
       date: '04/30/2023',
+      description: 'weekends',
+    },
+    {
+      date: '05/01/2023',
+      description: 'Labor Day',
+    },
+    {
+      date: '05/05/2023',
+      description: 'Vesak Day',
+    },
+    {
+      date: '05/06/2023',
+      description: 'weekends',
+    },
+    {
+      date: '05/07/2023',
+      description: 'weekends',
+    },
+    {
+      date: '05/13/2023',
+      description: 'weekends',
+    },
+    {
+      date: '05/14/2023',
+      description: 'weekends',
+    },
+    {
+      date: '05/20/2023',
+      description: 'weekends',
+    },
+    {
+      date: '05/21/2023',
+      description: 'weekends',
+    },
+    {
+      date: '05/27/2023',
+      description: 'weekends',
+    },
+    {
+      date: '05/28/2023',
+      description: 'weekends',
+    },
+    {
+      date: '06/03/2023',
+      description: 'weekends',
+    },
+    {
+      date: '06/04/2023',
+      description: 'weekends',
+    },
+    {
+      date: '06/10/2023',
+      description: 'weekends',
+    },
+    {
+      date: '06/11/2023',
+      description: 'weekends',
+    },
+    {
+      date: '06/17/2023',
+      description: 'weekends',
+    },
+    {
+      date: '06/18/2023',
+      description: 'weekends',
+    },
+    {
+      date: '06/24/2023',
+      description: 'weekends',
+    },
+    {
+      date: '06/25/2023',
+      description: 'weekends',
+    },
+    {
+      date: '06/28/2023',
+      description: 'Hari Raya Haji',
+    },
+    {
+      date: '07/01/2023',
+      description: 'weekends',
+    },
+    {
+      date: '07/02/2023',
+      description: 'weekends',
+    },
+    {
+      date: '07/08/2023',
+      description: 'weekends',
+    },
+    {
+      date: '07/09/2023',
+      description: 'weekends',
+    },
+    {
+      date: '07/15/2023',
+      description: 'weekends',
+    },
+    {
+      date: '07/16/2023',
+      description: 'weekends',
+    },
+    {
+      date: '07/22/2023',
+      description: 'weekends',
+    },
+    {
+      date: '07/23/2023',
+      description: 'weekends',
+    },
+    {
+      date: '07/29/2023',
+      description: 'weekends',
+    },
+    {
+      date: '07/30/2023',
       description: 'weekends',
     },
   ],
