@@ -1311,7 +1311,7 @@ const Form = () => {
         {holidayResult.map((data, index) => {
           return (
             <p key={index}>
-              {format(new Date(data.date), 'dd MMMM yyyy')} is{' '}
+              {format(new Date(data.date), 'MMMM d, yyyy')} is{' '}
               {data.description}
             </p>
           );
@@ -1320,7 +1320,7 @@ const Form = () => {
         {deliveryDateResult ? (
           <h3>
             Your Estimated Day is: <br className="visible-xs" />{' '}
-            {format(new Date(deliveryDateResult), 'dd MMMM yyyy')}
+            {format(new Date(deliveryDateResult), 'MMMM d, yyyy')}
           </h3>
         ) : null}
       </div>
