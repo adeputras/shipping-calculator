@@ -10,7 +10,7 @@ const helmetContentSecurityPolicy = {
     defaultSrc: ["'self'"],
     scriptSrc: ["'self'", "'unsafe-inline'"],
     styleSrc: ["'self'", "'unsafe-inline'"],
-    frameSrc: ["'none'"], // Menyembunyikan iframe dari sumber eksternal
+    frameSrc: ["'none'"],
   },
 };
 const root = ReactDOM.createRoot(document.getElementById('root'));
