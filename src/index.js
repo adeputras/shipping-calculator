@@ -1,13 +1,25 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { Helmet, HelmetProvider } from 'react-helmet-async';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+const helmetContentSecurityPolicy = {
+  directives: {
+    defaultSrc: ["'self'"],
+    scriptSrc: ["'self'", "'unsafe-inline'"],
+    styleSrc: ["'self'", "'unsafe-inline'"],
+    frameSrc: ["'none'"], // Menyembunyikan iframe dari sumber eksternal
+  },
+};
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <HelmetProvider>
+      <Helmet contentSecurityPolicy={helmetContentSecurityPolicy} />
+      <App />
+    </HelmetProvider>
   </React.StrictMode>
 );
 
