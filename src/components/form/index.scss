@@ -140,10 +140,11 @@
       color: #000000;
     }
   }
-  label {
+  .text-label {
     text-align: left;
     display: block;
     margin-bottom: 5px;
+    margin-top: 0;
     color: #ffffff;
     font-weight: bold;
   }
