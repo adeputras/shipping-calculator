@@ -691,6 +691,10 @@ export const dataCountries = {
       description: 'weekends',
     },
     {
+      date: '08/31/2023',
+      description: 'Merdeka Day',
+    },
+    {
       date: '09/02/2023',
       description: 'weekends',
     },
