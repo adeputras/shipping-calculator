@@ -384,6 +384,82 @@ export const dataCountries = {
       date: '10/29/2023',
       description: 'weekends',
     },
+    {
+      date: '11/04/2023',
+      description: 'weekends',
+    },
+    {
+      date: '11/05/2023',
+      description: 'weekends',
+    },
+    {
+      date: '11/11/2023',
+      description: 'weekends',
+    },
+    {
+      date: '11/12/2023',
+      description: 'weekends',
+    },
+    {
+      date: '11/18/2023',
+      description: 'weekends',
+    },
+    {
+      date: '11/19/2023',
+      description: 'weekends',
+    },
+    {
+      date: '11/25/2023',
+      description: 'weekends',
+    },
+    {
+      date: '11/26/2023',
+      description: 'weekends',
+    },
+    {
+      date: '12/02/2023',
+      description: 'weekends',
+    },
+    {
+      date: '12/03/2023',
+      description: 'weekends',
+    },
+    {
+      date: '12/09/2023',
+      description: 'weekends',
+    },
+    {
+      date: '12/10/2023',
+      description: 'weekends',
+    },
+    {
+      date: '12/16/2023',
+      description: 'weekends',
+    },
+    {
+      date: '12/17/2023',
+      description: 'weekends',
+    },
+    {
+      date: '12/23/2023',
+      description: 'weekends',
+    },
+    {
+      date: '12/24/2023',
+      description: 'weekends',
+    },
+    {
+      date: '12/25/2023',
+      description: 'Christmas Day',
+    },
+    {
+      date: '12/30/2023',
+      description: 'weekends',
+    },
+    {
+      date: '12/31/2023',
+      description: 'weekends',
+    },
   ],
   malaysia: [
     {
@@ -770,6 +846,82 @@ export const dataCountries = {
       date: '10/29/2023',
       description: 'weekends',
     },
+    {
+      date: '11/04/2023',
+      description: 'weekends',
+    },
+    {
+      date: '11/05/2023',
+      description: 'weekends',
+    },
+    {
+      date: '11/11/2023',
+      description: 'weekends',
+    },
+    {
+      date: '11/12/2023',
+      description: 'weekends',
+    },
+    {
+      date: '11/18/2023',
+      description: 'weekends',
+    },
+    {
+      date: '11/19/2023',
+      description: 'weekends',
+    },
+    {
+      date: '11/25/2023',
+      description: 'weekends',
+    },
+    {
+      date: '11/26/2023',
+      description: 'weekends',
+    },
+    {
+      date: '12/02/2023',
+      description: 'weekends',
+    },
+    {
+      date: '12/03/2023',
+      description: 'weekends',
+    },
+    {
+      date: '12/09/2023',
+      description: 'weekends',
+    },
+    {
+      date: '12/10/2023',
+      description: 'weekends',
+    },
+    {
+      date: '12/16/2023',
+      description: 'weekends',
+    },
+    {
+      date: '12/17/2023',
+      description: 'weekends',
+    },
+    {
+      date: '12/23/2023',
+      description: 'weekends',
+    },
+    {
+      date: '12/24/2023',
+      description: 'weekends',
+    },
+    {
+      date: '12/25/2023',
+      description: 'Christmas Day',
+    },
+    {
+      date: '12/30/2023',
+      description: 'weekends',
+    },
+    {
+      date: '12/31/2023',
+      description: 'weekends',
+    },
   ],
   philippine: [
     {
@@ -1146,6 +1298,94 @@ export const dataCountries = {
     },
     {
       date: '10/29/2023',
+      description: 'weekends',
+    },
+    {
+      date: '11/01/2023',
+      description: `'All Saints' Day`,
+    },
+    {
+      date: '11/04/2023',
+      description: 'weekends',
+    },
+    {
+      date: '11/05/2023',
+      description: 'weekends',
+    },
+    {
+      date: '11/11/2023',
+      description: 'weekends',
+    },
+    {
+      date: '11/12/2023',
+      description: 'weekends',
+    },
+    {
+      date: '11/18/2023',
+      description: 'weekends',
+    },
+    {
+      date: '11/19/2023',
+      description: 'weekends',
+    },
+    {
+      date: '11/25/2023',
+      description: 'weekends',
+    },
+    {
+      date: '11/26/2023',
+      description: 'weekends',
+    },
+    {
+      date: '11/30/2023',
+      description: 'Bonifacio Day',
+    },
+    {
+      date: '12/02/2023',
+      description: 'weekends',
+    },
+    {
+      date: '12/03/2023',
+      description: 'weekends',
+    },
+    {
+      date: '12/08/2023',
+      description: 'Feast of the Immaculate Conception',
+    },
+    {
+      date: '12/09/2023',
+      description: 'weekends',
+    },
+    {
+      date: '12/10/2023',
+      description: 'weekends',
+    },
+    {
+      date: '12/16/2023',
+      description: 'weekends',
+    },
+    {
+      date: '12/17/2023',
+      description: 'weekends',
+    },
+    {
+      date: '12/23/2023',
+      description: 'weekends',
+    },
+    {
+      date: '12/24/2023',
+      description: 'weekends',
+    },
+    {
+      date: '12/25/2023',
+      description: 'Christmas Day',
+    },
+    {
+      date: '12/30/2023',
+      description: 'weekends',
+    },
+    {
+      date: '12/31/2023',
       description: 'weekends',
     },
   ],
@@ -1528,6 +1768,86 @@ export const dataCountries = {
     },
     {
       date: '10/29/2023',
+      description: 'weekends',
+    },
+    {
+      date: '11/04/2023',
+      description: 'weekends',
+    },
+    {
+      date: '11/05/2023',
+      description: 'weekends',
+    },
+    {
+      date: '11/11/2023',
+      description: 'weekends',
+    },
+    {
+      date: '11/12/2023',
+      description: 'weekends',
+    },
+    {
+      date: '11/13/2023',
+      description: 'Deepavali / Diwali',
+    },
+    {
+      date: '11/18/2023',
+      description: 'weekends',
+    },
+    {
+      date: '11/19/2023',
+      description: 'weekends',
+    },
+    {
+      date: '11/25/2023',
+      description: 'weekends',
+    },
+    {
+      date: '11/26/2023',
+      description: 'weekends',
+    },
+    {
+      date: '12/02/2023',
+      description: 'weekends',
+    },
+    {
+      date: '12/03/2023',
+      description: 'weekends',
+    },
+    {
+      date: '12/09/2023',
+      description: 'weekends',
+    },
+    {
+      date: '12/10/2023',
+      description: 'weekends',
+    },
+    {
+      date: '12/16/2023',
+      description: 'weekends',
+    },
+    {
+      date: '12/17/2023',
+      description: 'weekends',
+    },
+    {
+      date: '12/23/2023',
+      description: 'weekends',
+    },
+    {
+      date: '12/24/2023',
+      description: 'weekends',
+    },
+    {
+      date: '12/25/2023',
+      description: 'Christmas Day',
+    },
+    {
+      date: '12/30/2023',
+      description: 'weekends',
+    },
+    {
+      date: '12/31/2023',
       description: 'weekends',
     },
   ],
